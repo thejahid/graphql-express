@@ -1,0 +1,8 @@
+{
+  "name": "graphql-express",
+  "version": "1.0.0",
+  "description": "Making Express & Graphql server",
+  "main": "index.js",
+  "author": "developerjahid",
+  "license": "MIT"
+}
