@@ -2,7 +2,21 @@
   "name": "graphql-express",
   "version": "1.0.0",
   "description": "Making Express & Graphql server",
-  "main": "index.js",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
   "author": "developerjahid",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "4.15.3",
+    "express-graphql": "0.6.7",
+    "graphql": "^15.5.0",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
